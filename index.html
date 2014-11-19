@@ -16,6 +16,9 @@
     <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="js/lib/foundation/foundation.min.css" />
     <link rel="stylesheet" href="css/master.css">
+
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/foundation/4.3.1/css/foundation.min.css" />
+
     <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -34,12 +37,21 @@
 
 <body>
     <div class="row">
-        <header role="banner" class="large-12" ng-controller="mainController">
+        <header role="banner" class="large-12 panel" ng-controller="mainController">
             <h1>{{name}}</h1>
         </header>
     </div>
-    <div class="row panel">
-        <section ng-view></section>
+    <article class="large-12 columns">
+        <aside class="row panel section content">
+            <section class="large-12">
+                <h4 class="hide-for-small">{{event.name}}
+                    <hr>
+                </h4>
+                <h5 class="subheader">{{event.copy}} {{event.copy}}</h5>
+            </section>
+        </aside>
+    </article>
+    <section ng-view class="panel large-3"></section>
     </div>
     <script src="http://localhost:35729/livereload.js"></script>
 </body>
