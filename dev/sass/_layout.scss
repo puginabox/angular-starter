@@ -1,1 +1,34 @@
-// layout
+body, nav {
+    margin: 10px;
+}
+.well {
+    height: 150px;
+    background: $dandelion;
+}
+.denim {
+    background: $denim;
+    p, h5 {
+        color: $porcelain;
+    }
+}
+.spruce {
+    background: $spruce;
+    p, h5 {
+        color: $porcelain;
+    }
+}
+.stone {
+    background: $stone;
+}
+.aegean {
+    background: $stone;
+    height: 160px;
+}
+.cerulean {
+    background: $cerulean;
+    height: 170px;
+}
+.daffodil {
+    background: $daffodil;
+    height: 170px;
+}
