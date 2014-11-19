@@ -1,0 +1,1092 @@
+@font-face {
+  font-family: 'Source Serif Pro';
+  src: local("SourceSerifPro-Regular");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/SourceSerifPro-Regular.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/SourceSerifPro-Regular.otf") format("opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/SourceSerifPro-Regular.woff") format("woff");
+  font-style: normal;
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Source Code Pro ExtraLight';
+  src: local("Source Code Pro ExtraLight");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/SourceCodePro-ExtraLight.eot");
+  src: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/SourceCodePro-ExtraLight.otf") format("opentype"), url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/SourceCodePro-ExtraLight.woff") format("woff");
+  font-style: normal;
+  font-weight: 200;
+}
+/* line 23, ../../../dev/sass/colors/sass/main.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 24, ../../../dev/sass/colors/sass/main.scss */
+body {
+  font-family: Source Serif Pro;
+  font-weight: 100;
+  font-size: 0;
+  margin: 0;
+}
+
+/* line 31, ../../../dev/sass/colors/sass/main.scss */
+h2 {
+  font-size: 2rem;
+  color: #000;
+  text-align: center;
+  line-height: 2;
+}
+
+/* line 32, ../../../dev/sass/colors/sass/main.scss */
+.colors {
+  display: flex;
+  flex-flow: row wrap;
+  color: black;
+  margin: 4rem 0;
+}
+
+/* line 38, ../../../dev/sass/colors/sass/main.scss */
+.colors > div {
+  font-size: 1.8rem;
+  padding: .8em;
+  text-align: center;
+  font-weight: 100;
+  flex: 1;
+  min-width: 12rem;
+}
+
+/* line 47, ../../../dev/sass/colors/sass/main.scss */
+.colors span {
+  display: block;
+  font-family: Source Code Pro;
+  font-size: 1.2rem;
+  margin-top: .4rem;
+}
+
+/* line 53, ../../../dev/sass/colors/sass/main.scss */
+.whitetext {
+  color: #fffefc;
+}
+
+/* line 54, ../../../dev/sass/colors/sass/main.scss */
+.blacktext {
+  color: #111111;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.white {
+  background: #fffefc;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pearl {
+  background: #fbfcf7;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.alabaster {
+  background: #fefaf0;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.snow {
+  background: #f4fefd;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.ivory {
+  background: #fef7e5;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cream {
+  background: #fffbda;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.eggshell {
+  background: #fef9e3;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cotton {
+  background: #fbfcf7;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.chiffon {
+  background: #fafaf1;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.salt {
+  background: #f8efec;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lace {
+  background: #faf3ea;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.coconut {
+  background: #fff1e6;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.linen {
+  background: #f2ebd3;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.bone {
+  background: #e7dfcc;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.porcelain {
+  background: #fffffc;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.parchment {
+  background: #fcf6df;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.rice {
+  background: #fbf6ef;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.blue {
+  background: #0074d9;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.navy {
+  background: #001f3f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.aqua {
+  background: #7fdbff;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sky {
+  background: #00b2ff;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.teal {
+  background: #39cccc;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.slate {
+  background: #757b87;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.indigo {
+  background: #281e5d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cobalt {
+  background: #1438bd;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.ocean {
+  background: #026063;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.peacock {
+  background: #002d37;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.azure {
+  background: #1621a6;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cerulean {
+  background: #0592c2;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lapis {
+  background: #2632c2;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.spruce {
+  background: #2c3e4b;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.stone {
+  background: #59788d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.aegean {
+  background: #1e456e;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.berry {
+  background: #24146f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.denim {
+  background: #141e3c;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.admiral {
+  background: #061094;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sapphire {
+  background: #52b2c0;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.arctic {
+  background: #82edfd;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.tan {
+  background: #e5dbac;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.beige {
+  background: #ecdc99;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.macaroon {
+  background: #f7df75;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.hazelwood {
+  background: #c9bc8e;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.granola {
+  background: #d6b75a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.oat {
+  background: #dec98a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.eggnog {
+  background: #fbe29d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.fawn {
+  background: #c7a951;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sugarcookie {
+  background: #f3ebad;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sand {
+  background: #d7b963;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sepia {
+  background: #e3b678;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.latte {
+  background: #e9c17b;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.oyster {
+  background: #dcd69f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.biscotti {
+  background: #e3c565;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.parmesean {
+  background: #fee993;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.hazelnut {
+  background: #bda55d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sandcastle {
+  background: #dbc27d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.buttermilk {
+  background: #fdefb2;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sanddollar {
+  background: #ebe7b9;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.shortbread {
+  background: #fce791;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.yellow {
+  background: #ffdc00;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.canary {
+  background: #fac801;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.gold {
+  background: #f9a602;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.daffodil {
+  background: #feee88;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.flaxen {
+  background: #d5b65a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.butter {
+  background: #fee226;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lemon {
+  background: #effd5f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.mustard {
+  background: #e9b829;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.corn {
+  background: #e4cd04;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.medallion {
+  background: #e4b103;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.dandelion {
+  background: #fdce2a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.bumblebee {
+  background: #fce206;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.banana {
+  background: #fcf4a3;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.butterscotch {
+  background: #fabd04;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.dijon {
+  background: #c29200;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.honey {
+  background: #ec9707;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.blonde {
+  background: #fdeb75;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pineapple {
+  background: #ffe327;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.tuscansun {
+  background: #fcd12a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.orange {
+  background: #ff851b;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.tangerine {
+  background: #f98228;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.merigold {
+  background: #fdae1d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cider {
+  background: #b66827;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.rust {
+  background: #8c4005;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.ginger {
+  background: #bc5703;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.tiger {
+  background: #fb6b02;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.bronze {
+  background: #b2560c;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cantaloupe {
+  background: #fca172;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.apricot {
+  background: #ed810f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.carrot {
+  background: #ed7116;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.squash {
+  background: #c95c09;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.spice {
+  background: #7a3a03;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.marmalade {
+  background: #d16102;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.amber {
+  background: #893201;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sandstone {
+  background: #d57128;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.yam {
+  background: #cc5801;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.red {
+  background: #ff4136;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cherry {
+  background: #9a0f02;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.rose {
+  background: #e2252a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.jam {
+  background: #600f0b;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.merlot {
+  background: #541f1b;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.garnet {
+  background: #5f0a04;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.crimson {
+  background: #b8100a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.ruby {
+  background: #900503;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.scarlet {
+  background: #910d08;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.redwine {
+  background: #4c0805;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.redapple {
+  background: #a91b0d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.mahogany {
+  background: #420d09;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.blood {
+  background: #710c04;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sangria {
+  background: #5f1914;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.currant {
+  background: #670c07;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.blush {
+  background: #bb544a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.candy {
+  background: #d31603;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lipstick {
+  background: #9b0f02;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pink {
+  background: #f69acd;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.fuchsia {
+  background: #f012be;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.punch {
+  background: #f25278;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.watermelon {
+  background: #fe809c;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.flamingo {
+  background: #fda4b8;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.rouge {
+  background: #f26c8c;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.salmon {
+  background: #fdab9f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.coral {
+  background: #fe7d67;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.peach {
+  background: #fb9483;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.strawberry {
+  background: #fc4c4e;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.rosewood {
+  background: #a04242;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lemonade {
+  background: #fabacb;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.taffy {
+  background: #fa85c4;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.bubblegum {
+  background: #fd5ca8;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.balletslipper {
+  background: #f69abf;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.crepe {
+  background: #f1b7c6;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.maroon {
+  background: #85144b;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.hotpink {
+  background: #ff1696;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.purple {
+  background: #b10dc9;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.mauve {
+  background: #7a4a89;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.violet {
+  background: #710193;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.boysenberry {
+  background: #630536;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lavender {
+  background: #e3a0f6;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.plum {
+  background: #601a36;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lilac {
+  background: #b65fcd;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.periwinkle {
+  background: #be93d4;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.eggplant {
+  background: #311431;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.iris {
+  background: #9866c5;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.heather {
+  background: #9b7cb9;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.amethyst {
+  background: #a45de4;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.raisin {
+  background: #290916;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.orchid {
+  background: #af69ee;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.mulberry {
+  background: #4d0220;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.green {
+  background: #2ecc40;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.chartreuse {
+  background: #b0fd38;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.juniper {
+  background: #395311;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.sage {
+  background: #728c69;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lime {
+  background: #01ff70;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.fern {
+  background: #5dbc64;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.olive {
+  background: #98bf64;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.emerald {
+  background: #038911;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pear {
+  background: #74b62d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.moss {
+  background: #476d1e;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.shamrock {
+  background: #03ac13;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.seafoam {
+  background: #3cec96;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pine {
+  background: #24501e;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.parakeet {
+  background: #02c04a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.mint {
+  background: #98ecc3;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.seaweed {
+  background: #354b21;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pickle {
+  background: #5a7d36;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pistachio {
+  background: #b2d3c1;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.basil {
+  background: #32622d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.crocodile {
+  background: #5f7c3a;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.brown {
+  background: #241709;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.coffee {
+  background: #4b371c;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.mocha {
+  background: #3c290d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.peanut {
+  background: #795c34;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.carob {
+  background: #35260f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.hickory {
+  background: #371d10;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pecan {
+  background: #4a2512;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.walnut {
+  background: #432711;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.caramel {
+  background: #66360f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.gingerbread {
+  background: #5d2c04;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.chocolate {
+  background: #2c1603;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.tortilla {
+  background: #9a7b4f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.umber {
+  background: #352415;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.tawny {
+  background: #7e491d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.brunette {
+  background: #391e07;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cinammon {
+  background: #642b0d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.penny {
+  background: #522915;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.grey {
+  background: #aaaaaa;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.shadow {
+  background: #373737;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.graphite {
+  background: #584d5b;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.iron {
+  background: #332d31;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pewter {
+  background: #6a6880;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.cloud {
+  background: #c5c5d0;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.silver {
+  background: #dddddd;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.smoke {
+  background: #59515f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.anchor {
+  background: #42424c;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.ash {
+  background: #554c4d;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.porpoise {
+  background: #4d4c5c;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.dove {
+  background: #7c6e7f;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.fog {
+  background: #655965;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.flint {
+  background: #7d7c9c;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.pebble {
+  background: #333333;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.lead {
+  background: #403f4e;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.coin {
+  background: #9897a9;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.fossil {
+  background: #787276;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.black {
+  background: #111111;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.ebony {
+  background: #080401;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.crow {
+  background: #25221F;
+}
+
+/* line 57, ../../../dev/sass/colors/sass/main.scss */
+.charcoal {
+  background: #222023;
+}

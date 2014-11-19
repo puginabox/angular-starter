@@ -1,0 +1,1775 @@
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    body {
+        font-size: 9px
+    }
+}
+@media all and (min-width: 641px) and (max-width: 768px) {
+    body {
+        font-size: 9px
+    }
+}
+@media all and (max-width: 640px) {
+    body {
+        font-size: 7px
+    }
+}
+@media all and (max-width: 1160px) {
+    .constrain {
+        padding: 0 40px
+    }
+}
+@media all and (max-width: 640px) {
+    .constrain {
+        padding: 0 20px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #header h1 {
+        background-image: url(../img/logo-retina.png);
+        background-size: 100% 100%;
+        height: 75px;
+        width: 66px
+    }
+}
+
+@media all and (min-width: 1200px) {
+    #header h1 {
+        left: 0
+    }
+}
+@media all and (max-width: 640px) {
+    #header h1 {
+        background-size: 100% 100%;
+        height: 39px;
+        left: 20px;
+        width: 31px
+    }
+}
+@media all and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
+    #header h1 {
+        height: 38px;
+        width: 33px
+    }
+}
+@media all and (max-width: 370px) {
+    #header h1 {
+        display: none
+    }
+}
+@media all and (max-width: 640px) {
+    .top-nav a+a {
+        margin-left: 15px
+    }
+}
+@media all and (max-width: 640px) {
+    .top-nav a.cta {
+        margin-left: 15px;
+        padding: 0 7px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    .top-nav a.cta .icon figure {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .contact {
+        height: 600px;
+        padding-top: 80px
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .contact .bg {
+        background-position: 25% center
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .contact h3 strong {
+        display: block;
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .contact .contact-info {
+        margin-top: 100px;
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .contact .contact-info.general {
+        float: none
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .nav-footer {
+        padding-top: 30px
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .nav-footer .constrain nav {
+        float: none;
+        margin-bottom: 30px
+    }
+}
+@media all and (max-width: 1080px) {
+    #footer .nav-footer .constrain .mission {
+        margin-left: 10%
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .nav-footer .constrain .mission {
+        float: none;
+        margin: 0 0 30px 0;
+        width: 100%
+    }
+}
+@media all and (max-width: 640px) {
+    #footer .nav-footer .constrain .social {
+        float: none
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #footer .nav-footer .constrain .social a.twitter {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #footer .nav-footer .constrain .social a.facebook {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (max-width: 1180px) {
+    .section-navigator {
+        right: 20px
+    }
+}
+@media all and (max-width: 640px) {
+    .section-navigator {
+        display: none
+    }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    .section-navigator li .bg {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    .section-navigator li a {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .section-title {
+        padding: 100px 10px 0
+    }
+}
+@media all and (max-width: 1024px) {
+    #landing #hero .top-menu {
+        width: 100%
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu li a figcaption {
+        padding-right: 0
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #hero .top-menu li.banks figure .icon {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu li.banks figure .icon {
+        background-image: url(../img/sprites.png);
+        background-repeat: no-repeat;
+        background-position: 0 -140px;
+        display: block;
+        height: 47px;
+        width: 47px
+    }
+}
+@media all and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #hero .top-menu li.banks figure .icon {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #hero .top-menu li.developers figure .icon {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu li.developers figure .icon {
+        background-image: url(../img/sprites.png);
+        background-repeat: no-repeat;
+        background-position: -53px -140px;
+        display: block;
+        height: 47px;
+        width: 47px
+    }
+}
+@media all and (max-width: 640px) and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #hero .top-menu li.developers figure .icon {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu .top figure {
+        padding: 0;
+        position: absolute;
+        top: 40px;
+        width: 100%
+    }
+    #landing #hero .top-menu .top figure .icon {
+        margin: auto
+    }
+}
+@media all and (max-width: 860px) {
+    #landing #hero .top-menu .top h6 {
+        font-size: 1.5em
+    }
+    #landing #hero .top-menu .top p {
+        font-size: 1.3em !important
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu .top h6 {
+        font-size: 2em;
+        text-align: center;
+        padding-top: 10px
+    }
+    #landing #hero .top-menu .top p {
+        display: none
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu .bottom {
+        padding: 22px 0 0 20px
+    }
+}
+
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #hero .top-menu .bottom .arrow-button {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu .bottom .arrow-button {
+        right: 20px
+    }
+}
+
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    #landing #hero .top-menu .middle {
+        padding: 13px 25px 0
+    }
+}
+@media all and (min-width: 641px) and (max-width: 768px) {
+    #landing #hero .top-menu .middle {
+        padding: 14px 10px 0
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu .middle {
+        display: table;
+        padding: 0
+    }
+}
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    #landing #hero .top-menu .middle p {
+        font-size: 1.8em
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #hero .top-menu .middle p {
+        display: table-cell;
+        padding: 0 12px 13px;
+        position: relative;
+        vertical-align: middle;
+        font-size: 1.4em
+    }
+}
+@media all and (max-width: 800px) {
+    #landing #platform .narrow {
+        padding: 100px 40px
+    }
+}
+@media all and (max-width: 1024px) {
+    #landing #platform .feature-grid {
+        height: 407px
+    }
+}
+@media all and (min-width: 641px) and (max-width: 768px) {
+    #landing #platform .feature-grid {
+        height: 440px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #platform .feature-grid {
+        border-top: none;
+        height: auto
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #platform .feature-grid .constrain {
+        padding: 0
+    }
+}
+@media all and (max-width: 1024px) {
+    #landing #platform .feature-grid .constrain>figure, #landing #platform .feature-grid .constrain>figcaption {
+        padding-top: 40px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #platform .feature-grid .constrain>figure, #landing #platform .feature-grid .constrain>figcaption {
+        border-top: 7px solid #33353a;
+        float: none;
+        height: auto;
+        padding: 40px 40px 60px;
+        width: 100%
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #platform .feature-grid .constrain>figure {
+        border-right: none;
+        padding-bottom: 90px
+    }
+}
+@media all and (min-width: 641px) and (max-width: 768px) {
+    #landing #platform .feature-grid .constrain>figure.solution {
+        padding-top: 80px
+    }
+}
+@media all and (max-width: 1024px) {
+    #landing #platform .feature-grid .constrain>figure.solution .scene-wrap {
+        -webkit-transform: scale(0.7);
+        -moz-transform: scale(0.7);
+        -ms-transform: scale(0.7);
+        -o-transform: scale(0.7);
+        transform: scale(0.7);
+        margin-left: -187px;
+        left: 50%;
+        top: -36px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #platform .feature-grid .constrain>figure.solution .scene-wrap {
+        margin-left: -167px;
+        top: -6px
+    }
+}
+@media all and (max-width: 1024px) {
+    #landing #platform .feature-grid .constrain>figure.problem .scene-wrap {
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+        transform: scale(0.9);
+        left: 50%;
+        margin-left: -126px
+    }
+}
+@media all and (min-width: 1080px) {
+    #landing #platform .feature-grid .constrain>figure.problem .scene-wrap {
+        margin-left: 40px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #platform .feature-grid .constrain>figure:after {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #platform .feature-grid .constrain>figure:after {
+        background-image: url(../img/sprites.png)
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #platform .feature-grid .constrain>figure:after {
+        right: 50%;
+        top: -29px;
+        margin-right: -25px;
+        -webkit-transform: rotate(-90deg);
+        -moz-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        -o-transform: rotate(-90deg);
+        transform: rotate(-90deg)
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #platform .feature-grid .constrain>figure .legend {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #platform .feature-grid .constrain>figure .legend {
+        background-image: url(../img/sprites.png)
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #platform .feature-grid .constrain>figure .legend {
+        bottom: 25px;
+        margin-right: -91px;
+        right: 50%
+    }
+}
+@media all and (max-width: 1000px) {
+    #landing #platform .feature-grid .constrain>figcaption {
+        padding-left: 60px
+    }
+}
+@media all and (max-width: 900px) {
+    #landing #features .narrow {
+        padding: 100px 40px
+    }
+}
+@media all and (max-width: 800px) {
+    #landing #features .feature-grid {
+        border-top: none;
+        height: auto
+    }
+}
+
+@media all and (max-width: 800px) {
+    #landing #features .feature-grid .constrain {
+        height: auto;
+        padding: 0
+    }
+}
+@media all and (max-width: 800px) {
+    #landing #features .feature-grid .constrain .left, #landing #features .feature-grid .constrain .right {
+        border-top: 7px solid #33353a;
+        float: none;
+        min-height: 200px;
+        padding: 40px 20px 40px 150px !important;
+        width: 100%
+    }
+}
+#landing #features .feature-grid .constrain .left {
+    border-right: 7px solid #33353a;
+    padding-left: 137px;
+    padding-right: 75px;
+    position: relative
+}
+@media all and (max-width: 1280px) {
+    #landing #features .feature-grid .constrain .left {
+        padding-right: 25px
+    }
+}
+@media all and (max-width: 900px) {
+    #landing #features .feature-grid .constrain .left {
+        padding-left: 117px
+    }
+}
+@media all and (max-width: 800px) {
+    #landing #features .feature-grid .constrain .left {
+        border-right: none;
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+#landing #features .feature-grid .constrain .left figcaption {
+    float: right
+}
+@media all and (max-width: 800px) {
+    #landing #features .feature-grid .constrain .left figcaption {
+        float: none
+    }
+}
+#landing #features .feature-grid .constrain .right {
+    padding-left: 256px
+}
+@media all and (max-width: 1280px) {
+    #landing #features .feature-grid .constrain .right {
+        padding-left: 200px
+    }
+}
+@media all and (max-width: 900px) {
+    #landing #features .feature-grid .constrain .right {
+        padding-left: 150px
+    }
+}
+@media all and (max-width: 800px) {
+    #landing #features .feature-grid .constrain .right {
+        padding-left: 0;
+        padding-right: 0
+    }
+}
+#landing #features .feature-grid img {
+    left: 0;
+    position: absolute;
+    top: 0
+}
+#landing #features .feature-grid figcaption {
+    position: relative
+}
+#landing #features .feature-grid figcaption h5 {
+    max-width: 320px
+}
+#landing #features .feature-grid figcaption p {
+    max-width: 320px
+}
+@media all and (max-width: 800px) {
+    #landing #features .feature-grid figcaption h5, #landing #features .feature-grid figcaption p {
+        max-width: 100%
+    }
+}
+#landing #features .feature-grid figcaption:before {
+    margin-right: 52px;
+    content: "";
+    margin-right: 52px;
+    position: absolute;
+    right: 100%;
+    top: 50px
+}
+@media all and (max-width: 900px) {
+    #landing #features .feature-grid figcaption:before {
+        margin-right: 32px
+    }
+}
+@media all and (max-width: 800px) {
+    #landing #features .feature-grid figcaption:before {
+        top: 20px
+    }
+}
+#landing #features .feature-grid figcaption.card-payments:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0px 0px;
+    display: block;
+    height: 58px;
+    width: 85px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.card-payments:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.card-payments:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.echeck-payment:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -100px 0px;
+    display: block;
+    height: 58px;
+    width: 98px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.echeck-payment:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.echeck-payment:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.ach-transfer:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0px -100px;
+    display: block;
+    height: 73px;
+    width: 58px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.ach-transfer:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.ach-transfer:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.wire-transfer:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -100px -100px;
+    display: block;
+    height: 80px;
+    width: 95px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.wire-transfer:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.wire-transfer:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.international-transfer:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0px -200px;
+    display: block;
+    height: 73px;
+    width: 74px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.international-transfer:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.international-transfer:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.intra-account-transfer:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -100px -200px;
+    display: block;
+    height: 71px;
+    width: 65px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.intra-account-transfer:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.intra-account-transfer:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.merchant-onboarding:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0px -300px;
+    display: block;
+    height: 68px;
+    width: 68px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.merchant-onboarding:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.merchant-onboarding:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.real-time-bank-account-reporting:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -100px -300px;
+    display: block;
+    height: 65px;
+    width: 104px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.real-time-bank-account-reporting:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.real-time-bank-account-reporting:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.real-time-bank-account-data-access:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0px -400px;
+    display: block;
+    height: 66px;
+    width: 58px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.real-time-bank-account-data-access:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.real-time-bank-account-data-access:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+@media all and (min-width: 1080px) {
+    #landing #features .feature-grid figcaption.standardized-security-and-compliance {
+        width: 112%
+    }
+}
+#landing #features .feature-grid figcaption.standardized-security-and-compliance:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -100px -400px;
+    display: block;
+    height: 72px;
+    width: 69px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.standardized-security-and-compliance:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.standardized-security-and-compliance:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.auth:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0px -500px;
+    display: block;
+    height: 83px;
+    width: 88px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.auth:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.auth:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #features .feature-grid figcaption.foreign-exchange:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -100px -500px;
+    display: block;
+    height: 77px;
+    width: 90px;
+    background-image: url(../img/feature-sprites.png)
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.foreign-exchange:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #features .feature-grid figcaption.foreign-exchange:before {
+        background-image: url(../img/feature-sprites_2x.png);
+        background-size: 300px 600px
+    }
+}
+#landing #next-steps .blue {
+    background-color: #4378dd
+}
+#landing #next-steps .stacked-text {
+    padding: 225px 136px 190px
+}
+@media all and (max-width: 1080px) {
+    #landing #next-steps .stacked-text {
+        padding: 220px 100px 190px
+    }
+}
+@media all and (max-width: 768px) {
+    #landing #next-steps .stacked-text {
+        padding: 100px 40px 100px
+    }
+}
+#landing #next-steps .stacked-text .inner-wrap {
+    max-width: 780px
+}
+@media all and (max-width: 1024px) {
+    #landing #next-steps .stacked-text .inner-wrap {
+        max-width: 550px;
+        margin: auto
+    }
+}
+#landing #next-steps .narrow {
+    padding: 225px 136px 190px
+}
+@media all and (max-width: 1080px) {
+    #landing #next-steps .narrow {
+        padding: 220px 100px 190px
+    }
+}
+@media all and (max-width: 768px) {
+    #landing #next-steps .narrow {
+        padding: 100px 40px 100px
+    }
+}
+#landing #next-steps .narrow .inner-wrap {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 780px
+}
+@media all and (max-width: 1024px) {
+    #landing #next-steps .narrow .inner-wrap {
+        max-width: 550px;
+        margin: auto
+    }
+}
+#landing #next-steps .narrow .inner-wrap h2 {
+    float: left;
+    line-height: 1.3em;
+    position: relative;
+    top: 0.75em
+}
+@media all and (max-width: 768px) {
+    #landing #next-steps .narrow .inner-wrap h2 {
+        float: none;
+        padding-bottom: 20px
+    }
+}
+#landing #next-steps .narrow .inner-wrap p {
+    float: left;
+    line-height: 1.5em;
+    margin-left: 175px;
+    max-width: 485px
+}
+@media all and (max-width: 1024px) {
+    #landing #next-steps .narrow .inner-wrap p {
+        margin-left: 40px;
+        max-width: 400px
+    }
+}
+@media all and (max-width: 768px) {
+    #landing #next-steps .narrow .inner-wrap p {
+        float: none;
+        margin: 0;
+        max-width: 100%
+    }
+}
+#landing #next-steps .steps {
+    overflow-x: hidden
+}
+#landing #next-steps .steps ul {
+    list-style: none;
+    overflow-x: visible;
+    position: relative
+}
+#landing #next-steps .steps ul li {
+    position: relative;
+    height: 700px
+}
+#landing #next-steps .steps ul li.step-1 {
+    padding-top: 197px
+}
+@media all and (max-width: 640px) {
+    #landing #next-steps .steps ul li.step-1 {
+        padding-top: 80px
+    }
+}
+#landing #next-steps .steps ul li.step-2 {
+    padding-top: 158px
+}
+@media all and (max-width: 640px) {
+    #landing #next-steps .steps ul li.step-2 {
+        padding-top: 0px
+    }
+}
+#landing #next-steps .steps ul li.step-3 {
+    overflow: hidden;
+    padding-top: 113px
+}
+@media all and (max-width: 640px) {
+    #landing #next-steps .steps ul li.step-3 {
+        padding-top: 0
+    }
+}
+@media all and (max-width: 510px) {
+    #landing #next-steps .steps ul li.step-3 {
+        height: 550px
+    }
+}
+#landing #next-steps .steps ul li.step-3>* {
+    position: relative
+}
+#landing #next-steps .steps ul li.step-3 .revenue-graph {
+    height: 906px;
+    position: absolute;
+    top: 0;
+    right: -200px;
+    width: 1231px
+}
+@media all and (min-width: 769px) and (max-width: 1024px) {
+    #landing #next-steps .steps ul li.step-3 .revenue-graph {
+        height: 800px;
+        right: -320px;
+        top: 80px
+    }
+}
+@media all and (min-width: 769px) and (max-width: 900px) {
+    #landing #next-steps .steps ul li.step-3 .revenue-graph {
+        height: 700px;
+        right: -480px;
+        top: 150px
+    }
+}
+@media all and (min-width: 641px) and (max-width: 768px) {
+    #landing #next-steps .steps ul li.step-3 .revenue-graph {
+        height: 600px;
+        left: -40px;
+        top: 220px;
+        right: auto
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #next-steps .steps ul li.step-3 .revenue-graph {
+        bottom: 0;
+        height: 500px;
+        left: -90px;
+        top: 200px;
+        right: auto
+    }
+}
+@media all and (max-width: 510px) {
+    #landing #next-steps .steps ul li.step-3 .revenue-graph {
+        height: 340px;
+        left: -70px
+    }
+}
+#landing #next-steps .steps ul li.step-3 .revenue-graph .mask {
+    height: 100%;
+    left: 0;
+    overflow: hidden;
+    position: absolute;
+    right: 100%;
+    top: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+#landing #next-steps .steps ul li.step-3 .revenue-graph img {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: auto;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+#landing #next-steps .steps ul li.step-3 .revenue-graph img.signal, #landing #next-steps .steps ul li.step-3 .revenue-graph img.signal-text {
+
+    opacity: 0;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+#landing #next-steps .steps ul h5:first-child {
+    margin-bottom: 5px
+}
+#landing #next-steps .steps ul p {
+    line-height: 1.3em;
+    margin-top: 1.5em;
+    max-width: 400px
+}
+#landing #next-steps .icosahedron-scene {
+    width: 774px;
+    height: 744px;
+    position: absolute;
+    top: 650px;
+    right: -100px;
+    -webkit-transition: top 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -moz-transition: top 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -o-transition: top 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: top 1000ms cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+#landing #next-steps .icosahedron-scene.exploded {
+    top: 0px
+}
+@media all and (max-width: 1024px) {
+    #landing #next-steps .icosahedron-scene {
+        height: 600px;
+        width: 600px;
+        right: -50px
+    }
+}
+@media all and (max-width: 900px) {
+    #landing #next-steps .icosahedron-scene {
+        height: 500px;
+        width: 500px;
+        right: 50%;
+        margin-top: 400px;
+        margin-right: -250px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #next-steps .icosahedron-scene {
+        height: 400px;
+        width: 400px;
+        margin-right: -200px;
+        top: 500px
+    }
+    #landing #next-steps .icosahedron-scene.exploded {
+        top: -100px
+    }
+}
+#landing #next-steps .icosahedron-scene-fallback {
+    display: none;
+    position: absolute;
+    right: -100px
+}
+#landing #next-steps .icosahedron-scene-fallback img {
+    width: 100%
+}
+#landing #next-steps .icosahedron-scene-fallback.top {
+    max-width: 674px;
+    top: 120px
+}
+#landing #next-steps .icosahedron-scene-fallback.bottom {
+    max-width: 715px;
+    top: 750px
+}
+@media all and (max-width: 1280px) {
+    #landing #next-steps .icosahedron-scene-fallback {
+        width: 600px;
+        right: 0px
+    }
+}
+@media all and (max-width: 1000px) {
+    #landing #next-steps .icosahedron-scene-fallback {
+        width: 500px;
+        right: 0px
+    }
+}
+@media all and (max-width: 900px) {
+    #landing #next-steps .icosahedron-scene-fallback {
+        height: 480px;
+        width: 480px;
+        right: 50%;
+        margin-top: 340px;
+        margin-right: -240px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #next-steps .icosahedron-scene-fallback {
+        height: 300px;
+        width: 300px;
+        margin-right: -150px;
+        margin-top: 200px
+    }
+}
+#landing #next-steps .parallax-element {
+    position: absolute
+}
+@media all and (max-width: 640px) {
+    #landing #next-steps .parallax-element {
+        display: none
+    }
+}
+#landing #next-steps .parallax-element.left {
+    left: 0
+}
+#landing #next-steps .parallax-element.left.layer-1 {
+    top: 440px
+}
+#landing #next-steps .parallax-element.left.layer-2 {
+    top: 450px
+}
+#landing #next-steps .parallax-element.right {
+    right: 0
+}
+#landing #next-steps .parallax-element.right.layer-1 {
+    top: 1700px
+}
+.no-webgl .icosahedron-scene {
+    display: none !important
+}
+.no-webgl .icosahedron-scene-fallback {
+    display: block !important
+}
+#landing #innovation {
+    background-color: #2a2c30;
+    height: 611px;
+    width: 100%
+}
+@media all and (max-width: 768px) {
+    #landing #innovation {
+        height: auto;
+        padding-bottom: 100px
+    }
+}
+#landing #innovation:before {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -280px -60px;
+    display: block;
+    height: 45px;
+    width: 114px;
+    content: "";
+    left: 50%;
+    margin-left: -57px;
+    position: absolute;
+    top: -45px
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #landing #innovation:before {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+#landing #innovation:after {
+    background-color: #2a2c30;
+    content: "";
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    width: 100%
+}
+#landing #innovation .narrow {
+    padding: 220px 136px 190px
+}
+@media all and (max-width: 1080px) {
+    #landing #innovation .narrow {
+        padding: 220px 100px 190px
+    }
+}
+@media all and (max-width: 768px) {
+    #landing #innovation .narrow {
+        padding: 100px 40px 0
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #innovation .narrow {
+        padding: 100px 20px 0
+    }
+}
+#landing #innovation .narrow .inner-wrap {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 804px
+}
+@media all and (max-width: 1024px) {
+    #landing #innovation .narrow .inner-wrap {
+        max-width: 600px;
+        margin: auto
+    }
+}
+#landing #innovation .narrow .inner-wrap h2 {
+    float: left;
+    line-height: 1.3em
+}
+@media all and (max-width: 768px) {
+    #landing #innovation .narrow .inner-wrap h2 {
+        float: none
+    }
+}
+#landing #innovation .narrow .inner-wrap h2:before {
+    top: -0.7em
+}
+#landing #innovation .narrow .inner-wrap p {
+    float: left;
+    line-height: 1.5em;
+    margin-left: 85px;
+    max-width: 440px
+}
+@media all and (max-width: 1024px) {
+    #landing #innovation .narrow .inner-wrap p {
+        margin-left: 40px;
+        max-width: 275px
+    }
+}
+@media all and (max-width: 768px) {
+    #landing #innovation .narrow .inner-wrap p {
+        float: none;
+        margin: 0;
+        max-width: 100%
+    }
+}
+#developers-get-started, #banks-get-started {
+    background-color: #4378dd;
+    height: 415px;
+    width: 100%
+}
+#developers-get-started .constrain, #banks-get-started .constrain {
+    padding-top: 115px;
+    text-align: center
+}
+#developers-get-started .constrain p, #banks-get-started .constrain p {
+    color: #a0bcf0
+}
+#developers-get-started .constrain a, #banks-get-started .constrain a {
+    background-color: #3567c7;
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    -ms-border-radius: 31px;
+    -o-border-radius: 31px;
+    border-radius: 31px;
+    color: white;
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 700;
+    height: 62px;
+    line-height: 62px;
+    margin-top: 56px;
+    text-indent: 0.5em;
+    text-transform: uppercase;
+    width: 203px;
+    -webkit-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -moz-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -o-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+#developers-get-started .constrain a:after, #banks-get-started .constrain a:after {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -250px -40px;
+    display: block;
+    height: 10px;
+    width: 13px;
+    content: "";
+    display: inline-block;
+    margin-left: 1em
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #developers-get-started .constrain a:after, #banks-get-started .constrain a:after {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+#developers-get-started .constrain a:hover, #banks-get-started .constrain a:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0
+}
+#landing #markets .blue {
+    background-color: #4378dd
+}
+#landing #markets .narrow {
+    padding: 215px 136px 190px
+}
+@media all and (max-width: 1080px) {
+    #landing #markets .narrow {
+        padding: 215px 90px 190px
+    }
+}
+@media all and (max-width: 768px) {
+    #landing #markets .narrow {
+        padding: 100px 40px 100px
+    }
+}
+#landing #markets .narrow .inner-wrap {
+    overflow: hidden;
+    *zoom: 1;
+    max-width: 805px
+}
+@media all and (max-width: 1024px) {
+    #landing #markets .narrow .inner-wrap {
+        max-width: 580px;
+        margin: auto
+    }
+}
+#landing #markets .narrow .inner-wrap h2 {
+    float: left;
+    line-height: 1.3em;
+    position: relative;
+    top: 1.2em
+}
+@media all and (max-width: 768px) {
+    #landing #markets .narrow .inner-wrap h2 {
+        float: none;
+        margin-bottom: 1.3em
+    }
+}
+#landing #markets .narrow .inner-wrap p {
+    float: left;
+    line-height: 1.5em;
+    margin-left: 115px;
+    max-width: 485px;
+    min-height: 8em;
+    top: 3em;
+    position: relative
+}
+@media all and (max-width: 1024px) {
+    #landing #markets .narrow .inner-wrap p {
+        margin-left: 40px;
+        max-width: 350px;
+        min-height: auto
+    }
+}
+@media all and (max-width: 768px) {
+    #landing #markets .narrow .inner-wrap p {
+        float: none;
+        margin: 0;
+        max-width: 100%;
+        min-height: auto;
+        top: 0
+    }
+}
+#landing #markets .market-features ul {
+    overflow: hidden;
+    *zoom: 1;
+    list-style: none;
+    padding: 140px 0 90px
+}
+@media all and (max-width: 1080px) {
+    #landing #markets .market-features ul {
+        padding: 100px 80px 90px
+    }
+}
+@media all and (max-width: 640px) {
+    #landing #markets .market-features ul {
+        padding: 100px 20px 90px
+    }
+}
+#landing #markets .market-features ul li {
+    float: left;
+    height: 295px;
+    max-width: 440px
+}
+@media all and (max-width: 1080px) {
+    #landing #markets .market-features ul li {
+        max-width: 45%
+    }
+}
+@media all and (max-width: 768px) {
+    #landing #markets .market-features ul li {
+        height: auto;
+        float: none !important;
+        max-width: 100%
+    }
+    #landing #markets .market-features ul li+li {
+        margin-top: 50px
+    }
+}
+#landing #markets .market-features ul li.right {
+    float: right
+}
+#landing #markets .market-features ul li h5 {
+    margin-bottom: 25px
+}
+#landing #markets .market-features ul li h5.number {
+    margin-bottom: 5px
+}
+#contact .wave-parallax-container {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    opacity: 0.5;
+    overflow: hidden;
+    width: 100%
+}
+#contact .wave-parallax-container ul {
+    height: 800px;
+    margin-left: -10%;
+    position: absolute;
+    top: -400px;
+    width: 120%
+}
+@media all and (max-width: 640px) {
+    #contact .wave-parallax-container ul {
+        height: 600px;
+        top: -300px
+    }
+}
+@media all and (min-width: 1600px) {
+    #contact .wave-parallax-container ul {
+        height: 600px;
+        top: -140px
+    }
+}
+#contact .wave-parallax-container li {
+    background-position: center bottom;
+    background-repeat: norepeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%
+}
+#contact .wave-parallax-container li.layer-1 {
+    background-image: url(../img/hero-layer-1.png)
+}
+#contact .wave-parallax-container li.layer-2 {
+    background-image: url(../img/hero-layer-2.png)
+}
+#contact .wave-parallax-container li.layer-3 {
+    background-image: url(../img/hero-layer-3.png)
+}
+#contact .wrap {
+    margin: auto;
+    padding: 142px 0 217px;
+    position: relative;
+    width: 640px
+}
+@media all and (max-width: 800px) {
+    #contact .wrap {
+        width: 100%
+    }
+}
+#contact hgroup {
+    margin-bottom: 50px
+}
+#contact .intro h6 {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-transform: none
+}
+@media all and (max-width: 640px) {
+    #contact .intro h6 span {
+        white-space: nowrap
+    }
+}
+#contact .intro p {
+    font-size: 1.8em;
+    line-height: 1.3em;
+    margin-bottom: 30px
+}
+#contact form {
+    padding-top: 20px
+}
+#contact form .error-text, #contact form .field-error {
+    color: #dd5050;
+    font-size: 1.7em
+}
+#contact form .error-text a, #contact form .field-error a {
+    color: inherit;
+    font-weight: 700;
+    text-decoration: underline
+}
+#contact form .error-text {
+    margin-bottom: 30px
+}
+#contact form .field-error {
+    margin-bottom: 10px
+}
+#contact form .error .form-element-wrap {
+    background-color: #dd5050
+}
+#contact form .error .form-element-wrap label {
+    color: white
+}
+#contact form .form-element-wrap {
+    background-color: #e0e5eb;
+    -webkit-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -moz-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -o-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+#contact form .form-element-wrap.active {
+    background-color: #5b92fa;
+    color: white
+}
+#contact form .form-element-wrap.active.textarea-wrap p {
+    color: white
+}
+#contact form .input-wrap, #contact form .textarea-wrap {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    border-radius: 4px;
+    color: #595e71;
+    padding: 15px 0 0 20px;
+    position: relative;
+    width: 100%
+}
+@media all and (max-width: 640px) {
+    #contact form .input-wrap, #contact form .textarea-wrap {
+        padding: 18px 0 0 10px
+    }
+}
+#contact form .input-wrap.tall, #contact form .textarea-wrap.tall {
+    height: 65px
+}
+#contact form .input-wrap p, #contact form .textarea-wrap p {
+    color: #5b92fa;
+    font-size: 1.5em;
+    font-style: italic;
+    font-weight: 600;
+    -webkit-transition: color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -moz-transition: color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -o-transition: color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+#contact form .input-row+.input-row {
+    margin-top: 20px
+}
+#contact form .input-wrap {
+    height: 54px
+}
+#contact form .textarea-wrap {
+    height: 200px
+}
+#contact form .flex-wrap {
+    left: 168px;
+    position: absolute;
+    right: 9px;
+    top: 8px
+}
+@media all and (max-width: 640px) {
+    #contact form .flex-wrap {
+        left: 100px
+    }
+}
+#contact form input[type="text"], #contact form input[type="email"], #contact form textarea {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    display: block;
+    font-size: 2em;
+    left: 0;
+    padding: 0 10px;
+    position: absolute;
+    top: 0;
+    width: 100%
+}
+#contact form input[type="text"]:focus, #contact form input[type="email"]:focus, #contact form textarea:focus {
+    outline-width: 0px
+}
+#contact form input[type="text"], #contact form input[type="email"] {
+    height: 38px
+}
+#contact form textarea {
+    height: 175px;
+    margin-top: 4px;
+    padding-top: 5px;
+    resize: none
+}
+#contact form label {
+    display: block;
+    font-size: 1.7em;
+    font-weight: 600;
+    width: 110px
+}
+#contact form label.nowrap {
+    white-space: nowrap
+}
+@media all and (max-width: 640px) {
+    #contact form label {
+        width: 80px
+    }
+}
+#contact form .textarea-wrap label {
+    margin-bottom: 5px
+}
+#contact form .submit-wrap {
+    background-color: #3567c7;
+    border: none;
+    -webkit-border-radius: 31px;
+    -moz-border-radius: 31px;
+    -ms-border-radius: 31px;
+    -o-border-radius: 31px;
+    border-radius: 31px;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: white;
+    display: inline-block;
+    float: right;
+    font-size: 1.5em;
+    font-weight: 700;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 18px;
+    position: relative;
+    text-transform: uppercase;
+    width: 163px;
+    -webkit-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -moz-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -o-transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: all 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+#contact form .submit-wrap:after {
+    background-image: url(../img/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -250px -40px;
+    display: block;
+    height: 10px;
+    width: 13px;
+    content: "";
+    margin-top: -4px;
+    position: absolute;
+    top: 50%;
+    right: 44px
+}
+@media all and (-webkit-min-device-pixel-ratio: 2) {
+    #contact form .submit-wrap:after {
+        background-image: url(../img/sprites_2x.png);
+        background-size: 500px 500px
+    }
+}
+#contact form .submit-wrap:hover {
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0
+}
+#contact form .submit-wrap.disabled {
+
+    opacity: 0.5;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0
+}
+#contact form .submit-wrap.disabled input {
+    cursor: default
+}
+#contact form input[type="submit"] {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    border: none;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    -ms-border-radius: none;
+    -o-border-radius: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    color: white;
+    display: inline-block;
+    font-family: "Dosis", sans-serif;
+    font-weight: 400;
+    height: 100%;
+    line-height: 48px;
+    text-indent: -10px;
+    text-transform: uppercase;
+    width: 100%
+}
+#contact-nav {
+    background-color: #383b42;
+    height: 140px;
+    margin-top: -70px;
+    position: fixed;
+    right: 0;
+    top: 50%;
+    width: 110px;
+    z-index: 1
+}
+@media all and (max-width: 870px) {
+    #contact-nav {
+        height: auto;
+        position: relative;
+        width: 100%
+    }
+}
+#contact-nav ul {
+    list-style: none
+}
+@media all and (max-width: 870px) {
+    #contact-nav ul {
+        overflow: hidden;
+        *zoom: 1
+    }
+}
+#contact-nav ul li {
+    text-align: center
+}
+@media all and (max-width: 870px) {
+    #contact-nav ul li {
+        float: left;
+        position: relative;
+        width: 50%
+    }
+}
+#contact-nav ul a {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+    height: 70px;
+    line-height: 69px;
+    position: relative;
+    text-transform: uppercase;
+    width: 100%;
+    -webkit-transition: color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -moz-transition: color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    -o-transition: color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transition: color 150ms cubic-bezier(0.25, 0.46, 0.45, 0.94)
+}
+@media all and (max-width: 640px) {
+    #contact-nav ul a {
+        font-size: 1.5em
+    }
+}
+#contact-nav ul a:hover, #contact-nav ul a.active {
+    color: #5b92fa
+}
+#contact-nav ul li+li a:before {
+    background-color: #565960;
+    content: "";
+    display: block;
+    height: 1px;
+    left: 23px;
+    position: absolute;
+    top: 0;
+    right: 23px
+}
+@media all and (max-width: 870px) {
+    #contact-nav ul li+li a:before {
+        bottom: 0;
+        height: auto;
+        left: 0;
+        right: auto;
+        width: 1px
+    }
+}

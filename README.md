@@ -1,4 +1,4 @@
-angular-starter
-===============
+grunt-starter
+=============
 
-Grunt, Bower, Angular, Compass, Sass Color Library
+Grunt Scaffolding

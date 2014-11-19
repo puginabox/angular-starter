@@ -1,0 +1,33 @@
+{
+    "name": "require starter",
+    "version": "1.0.0",
+    "authors": [
+        "Griffin Byron <puginabox@gmail.com>"
+    ],
+    "description": "bower, grunt, compass, require & angular starter",
+    "main": "js/main",
+    "keywords": [
+        "bower",
+        "grunt",
+        "amd",
+        "compass",
+        "requirejs"
+    ],
+    "license": "me",
+    "homepage": "griffinbyron.com",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ],
+    "dependencies": {
+        "jquery": "latest",
+        "requirejs": "latest",
+        "angularjs": "latest",
+        "angular-route": "latest",
+        "modernizr": "latest"
+    }
+}

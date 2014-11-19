@@ -1,0 +1,51 @@
+
+
+
+
+
+@mixin breakpoint($point) {
+//-------------------------- Mobile --------------|
+  @if $point == mobile {
+    @media (max-width: 400px) { @content; }
+  }
+//-------------------------- Tablet --------------|
+  @else if $point == tablet {
+    @media (min-width:401px) and (max-width:1000px) { @content; }
+  }
+//-------------------------- Desktop -------------|
+  @else if $point == desktop {
+    @media (min-width:1001px) and (max-width:1280px)  { @content; }
+  }
+//-------------------------- Large ---------------|
+  @else if $point == large {
+    @media (min-width:1281px) { @content; }
+  }
+//-------------------------- Landscape -----------|
+  @else if $point == landscape {
+    @media only screen and (orientation: landscape) { @content; }
+  }
+}
+
+@mixin bordering ($thick, $borderColor) {
+	border: $thick solid $borderColor;
+	border-radius: 18em;
+}
+
+ @mixin all-transitions { 
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -ms-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+/*-------------------- clearfix -------------------*/
+.clearFixit:before, .clearFixit:after {
+  content: "";
+  display: table;
+}
+.clearFixit:after {
+  clear: both; }
+
+.clearFixit {
+  zoom: 1;
+}
