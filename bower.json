@@ -24,10 +24,11 @@
         "tests"
     ],
     "dependencies": {
-        "jquery": "latest",
-        "requirejs": "latest",
-        "angularjs": "latest",
-        "angular-route": "latest",
-        "modernizr": "latest"
+        "jquery": "*",
+        "requirejs": "*",
+        "angularjs": "*",
+        "angular-route": "*",
+        "modernizr": "*",
+        "foundation": "*"
     }
 }
