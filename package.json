@@ -1,38 +1,21 @@
 {
-    "name": "grunt-setup",
-    "version": "0.0.0",
-    "description": "Grunt Setup",
-    "main": "main.js",
-    "scripts": {
-        "test": "testing"
-    },
-    "repository": {
-        "type": "git",
-        "url": "puginabox@github.com/frontend-setup.git"
-    },
-    "keywords": [
-        "git",
-        "grunt",
-        "npm",
-        "bower"
-    ],
-    "author": "Griffin Byron",
-    "license": "MIT",
-    "devDependencies": {
-        "bower": "*",
-        "grunt": "*",
-        "grunt-contrib-clean": "*",
-        "grunt-contrib-compass": "*",
-        "grunt-contrib-copy": "*",
-        "grunt-contrib-cssmin": "*",
-        "grunt-contrib-jshint": "*",
-        "grunt-contrib-uglify": "*",
-        "grunt-contrib-watch": "*",
-        "grunt-svgmin": "*",
-        "matchdep": "*"
-    },
-    "dependencies": {
-        "express": "*",
-        "compression": "^1.2.0"
-    }
+  "name": "Sass_setup",
+  "version": "0.0.1",
+  "description": "Refactoring Sass/CSS site-wide",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Griffin Byron",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.8.11",
+    "gulp-autoprefixer": "1.0.0",
+    "gulp-compass": "^1.3.1",
+    "gulp-livereload": "^2.1.1",
+    "gulp-load-plugins": "^0.10.0",
+    "gulp-minify-css": "^1.1.1",
+    "gulp-plumber": "^1.0.0",
+    "path": "^0.4.9"
+  }
 }

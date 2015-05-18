@@ -8,10 +8,10 @@
     "main": "js/main",
     "keywords": [
         "bower",
-        "grunt",
+        "gulp",
         "amd",
         "compass",
-        "requirejs"
+        "angularjs"
     ],
     "license": "me",
     "homepage": "griffinbyron.com",
